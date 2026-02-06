@@ -1,10 +1,37 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Website</title>
+  <title>Home Page</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hello, world!</h1>
+  <!-- HOME PAGE -->
+  <section id="home" class="active"> 
+    <h1>hello! I'm marcela</h1>
+    <h2>welcome to my everything portfolio</h2>
+    <button class="data-button"> data </button>
+    <button class="design-button" onclick="showPage('design')"> design </button>   
+    <button class="about-me-button" onclick="showPage('about-me')">about me</button>
+  </section>
+
+  <!-- NAVBAR -->
+    <header id="navs">
+      <nav id="navbar">
+        <a href="#" onclick="showPage('home')">home</a>
+        <a href="#" onclick="showPage('data-projects')">data projects</a>
+        <a href="#" onclick="showPage('design-projects')">design projects</a>
+        <a href="#" onclick="showPage('about-me')">contact</a>        
+      </nav>
+    </header>
+
+  <!-- ABOUT ME PAGE -->
+  <section id="about-me">
+    <h1>about me</h1>
+    <h2> contact info </h2>
+    <button class="email-button"> email </button>
+    <button class="CV-button"> CV </button>   
+    <button class="github-button"> github </button>
+    <button class="linkedin-button"> linkedin </button>
+  </section>
 </body>
 </html>
