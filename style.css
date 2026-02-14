@@ -1,6 +1,36 @@
 
+/* HOME PAGE DESIGN */
+
+body{
+background-image: url("_portfólio_sketch.jpg");
+}
+
+#home {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  text-align:center;
+}
+
+/* home page buttons */
+
+a {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 100px;
+  margin: 10px 11px 12px 20px;
+
+}
 
 
+
+/* ABOUT ME PAGE DESIGN */
 /* navigation bar settings */
 ul {
   list-style-type: none;
@@ -16,9 +46,9 @@ ul li {
   float: left;
 }
 
-ul li a {
+.navbar {
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
