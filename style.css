@@ -1,7 +1,7 @@
 
 body {
  font-family: "Poppins", sans-serif;
- font-weight: 1000;
+ font-weight: 500;
  font-style: normal;
 
 }
@@ -17,6 +17,12 @@ body {
   justify-content: center;
   text-align:center;
 } 
+
+h1{
+ font-family: "Poppins", sans-serif;
+ font-weight: 1000;
+ font-style: normal;
+}
 
 /* home page buttons */
 
@@ -78,7 +84,8 @@ ul li {
 }
 
 ul li a:hover {
-  background-color: red;
+  background-color: black;
+  color: white;
 }
 
 /* about me contact and text sections*/
@@ -153,4 +160,56 @@ ul li a:hover {
   border-radius: 10px;
   margin: 10px 20px 12px 20px;
 
+}
+
+/* DESIGN PAGE */
+
+.design-h1{
+  margin: 100px 20px 12px 20px;
+  font-size: 45;
+  text-align: center;
+}
+
+.dsn-text-container{
+ background-color: lightskyblue;
+ padding: 10px 10px 10px 10px; 
+}
+p{
+  text-align: center;
+  font-size: 20;
+}
+
+/* DATA PAGE */
+
+.data-h1{
+  margin: 100px 20px 12px 20px;
+  font-size: 45;
+  text-align: center;
+}
+
+.data-text-container{
+ background-color: orangered;
+ padding: 10px 10px 10px 10px; 
+}
+
+p{
+  text-align: center;
+  font-size: 20;
+  font-weight: 
+}
+
+.data-tools-container{
+  text-align: center;
+  padding: 10px 10px 10px 10px; 
+}
+
+.h2-tools{
+  font-size: 35;
+  text-align: left;
+  padding: 5px; 
+}
+
+.data-project-card{
+background-color: orangered;
+padding: 50px;
 }
