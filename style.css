@@ -66,7 +66,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  position: fixed;
+  /*position: fixed; */
   top: 0;
   width: 100%;
 }
@@ -171,13 +171,37 @@ ul li a:hover {
 }
 
 .dsn-text-container{
- background-color: lightskyblue;
+ background-color: #6E06FF;
  padding: 10px 10px 10px 10px; 
 }
+
 p{
   text-align: center;
   font-size: 20;
 }
+
+.h2-projects{
+  font-size: 35;
+  text-align: left;
+  padding: 15px; 
+}
+
+.design-projects-container{
+  justify-content: center;
+}
+
+.design-project-card{
+  display: inline-flex;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  background-color: #05A4FF;
+  padding: 50px;
+  margin: 10px; 
+  position:relative;
+  border-radius: 10px;
+}
+
 
 /* DATA PAGE */
 
@@ -188,14 +212,13 @@ p{
 }
 
 .data-text-container{
- background-color: orangered;
+ background-color: #CA0505;
  padding: 10px 10px 10px 10px; 
 }
 
 p{
   text-align: center;
   font-size: 20;
-  font-weight: 
 }
 
 .data-tools-container{
@@ -209,7 +232,42 @@ p{
   padding: 5px; 
 }
 
+.h2-projects{
+  font-size: 35;
+  text-align: left;
+  padding: 15px; 
+}
+
 .data-project-card{
-background-color: orangered;
-padding: 50px;
+  display: inline-flex;
+  text-decoration: none;
+  color: black;
+  background-color: #EF6A22;
+  padding: 50px;
+  margin: 10px; 
+  position:relative;
+  border-radius: 10px;
+}
+
+.data-images {
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1; 
+  pointer-events: none; 
+}
+/* Individual Image Positioning */
+.data-img-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px; /* Adjust size as needed */
+  height: auto;
+}
+
+/* Target the second image specifically to move it to the right */
+.data-images img:nth-child(2) {
+  left: auto; /* Reset the left property */
+  right: 0;   /* Align to the right edge */
 }
